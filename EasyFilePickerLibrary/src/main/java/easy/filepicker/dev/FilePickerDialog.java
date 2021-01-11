@@ -31,7 +31,7 @@ public class FilePickerDialog extends BottomSheetDialogFragment{
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
         BottomSheetDialog dialog = new BottomSheetDialog(getContext(), R.style.MyBottomSheetDialogTheme);
-        FrameLayout bottomSheet = dialog.findViewById(com.google.android.material.R.id.design_bottom_sheet);
+        FrameLayout bottomSheet = dialog.findViewById(R.id.design_bottom_sheet);
         BottomSheetBehavior.from(bottomSheet).setState(BottomSheetBehavior.STATE_EXPANDED);
         return dialog;
     }
