@@ -12,12 +12,29 @@ import com.google.android.material.bottomsheet.BottomSheetDialog;
 import easy.filepicker.dev.R;
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
 import android.widget.FrameLayout;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.cardview.widget.CardView;
+import android.widget.LinearLayout;
 
 public class FilePickerDialog extends BottomSheetDialogFragment {
 
     public static final String TAG = "FilePickerDialog";
 
+    private CardView dialogCard;
+    private RecyclerView itemRv;
+    
+    private static int dialogMargin;
+    private static int dialogCorner;
+    private static int dialogElevation;
+    
     private OnSelectedListener mListener;
+    
+    public FilePickerDialog() {
+        this.dialogMargin = getContext().getResources().getInteger(R.integer.default_dialog_margin);
+        this.dialogCorner = getContext().getResources().getInteger(R.integer.default_corner_radius);
+        this.dialogElevation = getContext().getResources().getInteger(R.integer.default_dialog_elevation);
+        
+    }
 
     public static FilePickerDialog newInstance() {
         return new FilePickerDialog();
@@ -43,6 +60,29 @@ public class FilePickerDialog extends BottomSheetDialogFragment {
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+        dialogCard = view.findViewById(R.id.dialog_card);
+        itemRv = view.findViewById(R.id.item_rv);
+        
+        LinearLayout.LayoutParams params = (LinearLayout.LayoutParams) dialogCard.getLayoutParams();
+        if (params != null) {
+            params.setMargins(dialogMargin, dialogMargin, dialogMargin, dialogMargin);
+            dialogCard.setLayoutParams(params);
+        }
+        
+        dialogCard.setRadius((float) dialogCorner);
+        dialogCard.setElevation((float) dialogElevation);
+    }
+    
+    public void setDialogMargin(int margin) {
+        this.dialogMargin = margin;
+    }
+    
+    public void setDialogCornerRadius(int cornerRadius) {
+        this.dialogCorner = cornerRadius;
+    }
+    
+    public void setDialogElevation(int elevation) {
+        this.dialogElevation = elevation;
     }
 
     public interface OnSelectedListener {

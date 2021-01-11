@@ -2,14 +2,16 @@
 <androidx.cardview.widget.CardView
 	xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/dialog_card"
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
-    app:cardCornerRadius="@dimen/corner_radius"
-    app:cardElevation="@dimen/card_elevation">
+    android:layout_margin="@dimen/dialog_margin"
+    app:cardCornerRadius="@dimen/dialog_corner_radius"
+    app:cardElevation="@dimen/dialog_elevation">
     
-    <TextView
-        android:text="Hello World"
-        android:layout_width="100dp"
-        android:layout_height="200dp" />
+    <androidx.recylcerview.widget.RecyclerView
+        android:id="@+id/item_rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
     
 </androidx.cardview.widget.CardView>

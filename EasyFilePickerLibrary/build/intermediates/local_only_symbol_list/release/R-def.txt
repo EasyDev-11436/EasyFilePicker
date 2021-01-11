@@ -1,9 +1,15 @@
 R_DEF: Internal format may change without notice
 local
-dimen card_elevation
-dimen corner_radius
+dimen dialog_corner_radius
+dimen dialog_elevation
+dimen dialog_margin
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+id dialog_card
+id item_rv
+integer default_corner_radius
+integer default_dialog_elevation
+integer default_dialog_margin
 layout file_dialog
 layout file_item_dialog
 mipmap ic_launcher

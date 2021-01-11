@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <integer name="default_corner_radius">8</integer>
+    <integer name="default_dialog_elevation">8</integer>
+    <integer name="default_dialog_margin">8</integer>
+</resources>

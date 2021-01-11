@@ -19,6 +19,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 FilePickerDialog addFilePickerDialog = new FilePickerDialog();
+                addFilePickerDialog.setDialogCornerRadius(50);
+                addFilePickerDialog.setDialogMargin(20);
                 addFilePickerDialog.show(getSupportFragmentManager(), FilePickerDialog.TAG);
             }
             
