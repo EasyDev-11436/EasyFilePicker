@@ -13,12 +13,12 @@ import easy.filepicker.dev.R;
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
 import android.widget.FrameLayout;
 
-public class FilePickerDialog extends BottomSheetDialogFragment{
-    
+public class FilePickerDialog extends BottomSheetDialogFragment {
+
     public static final String TAG = "FilePickerDialog";
-    
+
     private OnSelectedListener mListener;
-    
+
     public static FilePickerDialog newInstance() {
         return new FilePickerDialog();
     }
@@ -31,8 +31,12 @@ public class FilePickerDialog extends BottomSheetDialogFragment{
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
         BottomSheetDialog dialog = new BottomSheetDialog(getContext(), R.style.MyBottomSheetDialogTheme);
-        FrameLayout bottomSheet = dialog.findViewById(com.google.android.material.R.id.design_bottom_sheet);
-        BottomSheetBehavior.from(bottomSheet).setState(BottomSheetBehavior.STATE_EXPANDED);
+        if (dialog != null) {
+            FrameLayout bottomSheet = dialog.findViewById(com.google.android.material.R.id.design_bottom_sheet);
+            if (bottomSheet != null) {
+                BottomSheetBehavior.from(bottomSheet).setState(BottomSheetBehavior.STATE_EXPANDED);
+            }
+        }
         return dialog;
     }
 
@@ -40,9 +44,9 @@ public class FilePickerDialog extends BottomSheetDialogFragment{
     public void onViewCreated(View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
     }
-    
+
     public interface OnSelectedListener {
         public void onSelected(FilePath path);
     }
-    
+
 }
