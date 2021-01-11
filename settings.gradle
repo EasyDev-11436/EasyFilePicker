@@ -1,0 +1,2 @@
+include ':app', ':EasyFilePickerLibrary'
+rootProject.name = "EasyFilePicker"

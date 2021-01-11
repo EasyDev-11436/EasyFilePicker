@@ -1,0 +1,12 @@
+R_DEF: Internal format may change without notice
+local
+dimen corner_radius
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+layout file_dialog
+layout file_item_dialog
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style MYBottomSheetStyle
+style MyBottomSheetDialogTheme
