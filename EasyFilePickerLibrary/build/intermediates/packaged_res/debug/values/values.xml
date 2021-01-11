@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <dimen name="card_elevation">8dp</dimen>
     <dimen name="corner_radius">8dp</dimen>
     <string name="app_name">easyfilepickerlibrary</string>
     <style name="MYBottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/storage/emulated/0/AppProjects/EasyFilePicker/EasyFilePickerLibrary/build/intermediates/res/merged/release/mipmap-anydpi-v26/ic_launcher_round.xml",
+        "source": "/storage/emulated/0/AppProjects/EasyFilePicker/EasyFilePickerLibrary/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AppProjects/EasyFilePicker/EasyFilePickerLibrary/build/intermediates/res/merged/release/mipmap-anydpi-v26/ic_launcher.xml",
+        "source": "/storage/emulated/0/AppProjects/EasyFilePicker/EasyFilePickerLibrary/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    }
+]

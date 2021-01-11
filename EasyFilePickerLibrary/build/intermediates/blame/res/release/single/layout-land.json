@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/storage/emulated/0/AppProjects/EasyFilePicker/EasyFilePickerLibrary/build/intermediates/res/merged/release/layout-land/mtrl_picker_header_dialog.xml",
+        "source": "/data/data/com.aide.ui/files/BuildTools/.gradle/caches/transforms-2/files-2.1/e4bee0a3b831ef9217e8c5a74c756fae/material-1.3.0-beta01/res/layout-land/mtrl_picker_header_dialog.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AppProjects/EasyFilePicker/EasyFilePickerLibrary/build/intermediates/res/merged/release/layout-land/material_clock_period_toggle_land.xml",
+        "source": "/data/data/com.aide.ui/files/BuildTools/.gradle/caches/transforms-2/files-2.1/e4bee0a3b831ef9217e8c5a74c756fae/material-1.3.0-beta01/res/layout-land/material_clock_period_toggle_land.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AppProjects/EasyFilePicker/EasyFilePickerLibrary/build/intermediates/res/merged/release/layout-land/material_timepicker.xml",
+        "source": "/data/data/com.aide.ui/files/BuildTools/.gradle/caches/transforms-2/files-2.1/e4bee0a3b831ef9217e8c5a74c756fae/material-1.3.0-beta01/res/layout-land/material_timepicker.xml"
+    }
+]

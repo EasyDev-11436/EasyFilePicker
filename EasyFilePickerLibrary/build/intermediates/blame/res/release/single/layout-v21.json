@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/storage/emulated/0/AppProjects/EasyFilePicker/EasyFilePickerLibrary/build/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/data/data/com.aide.ui/files/BuildTools/.gradle/caches/transforms-2/files-2.1/7f4a7d7d791ca02ba489998424420f87/core-1.5.0-alpha02/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AppProjects/EasyFilePicker/EasyFilePickerLibrary/build/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/data/data/com.aide.ui/files/BuildTools/.gradle/caches/transforms-2/files-2.1/7f4a7d7d791ca02ba489998424420f87/core-1.5.0-alpha02/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AppProjects/EasyFilePicker/EasyFilePickerLibrary/build/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/data/data/com.aide.ui/files/BuildTools/.gradle/caches/transforms-2/files-2.1/7f4a7d7d791ca02ba489998424420f87/core-1.5.0-alpha02/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AppProjects/EasyFilePicker/EasyFilePickerLibrary/build/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/data/data/com.aide.ui/files/BuildTools/.gradle/caches/transforms-2/files-2.1/7f4a7d7d791ca02ba489998424420f87/core-1.5.0-alpha02/res/layout-v21/notification_action_tombstone.xml"
+    }
+]

@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/storage/emulated/0/AppProjects/EasyFilePicker/EasyFilePickerLibrary/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/data/data/com.aide.ui/files/BuildTools/.gradle/caches/transforms-2/files-2.1/d48406bdec598b847888b05e3017f942/appcompat-1.3.0-alpha02/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/storage/emulated/0/AppProjects/EasyFilePicker/EasyFilePickerLibrary/build/intermediates/res/merged/release/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/data/data/com.aide.ui/files/BuildTools/.gradle/caches/transforms-2/files-2.1/d48406bdec598b847888b05e3017f942/appcompat-1.3.0-alpha02/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

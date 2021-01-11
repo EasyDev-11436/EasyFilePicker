@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/storage/emulated/0/AppProjects/EasyFilePicker/EasyFilePickerLibrary/build/intermediates/res/merged/release/layout-watch-v20/abc_alert_dialog_title_material.xml",
+        "source": "/data/data/com.aide.ui/files/BuildTools/.gradle/caches/transforms-2/files-2.1/d48406bdec598b847888b05e3017f942/appcompat-1.3.0-alpha02/res/layout-watch-v20/abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AppProjects/EasyFilePicker/EasyFilePickerLibrary/build/intermediates/res/merged/release/layout-watch-v20/abc_alert_dialog_button_bar_material.xml",
+        "source": "/data/data/com.aide.ui/files/BuildTools/.gradle/caches/transforms-2/files-2.1/d48406bdec598b847888b05e3017f942/appcompat-1.3.0-alpha02/res/layout-watch-v20/abc_alert_dialog_button_bar_material.xml"
+    }
+]

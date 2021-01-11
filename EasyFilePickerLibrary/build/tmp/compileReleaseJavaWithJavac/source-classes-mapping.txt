@@ -1,7 +1,7 @@
 easy/filepicker/dev/FilePath.java
  easy.filepicker.dev.FilePath
+easy/filepicker/dev/BuildConfig.java
+ easy.filepicker.dev.BuildConfig
 easy/filepicker/dev/FilePickerDialog.java
  easy.filepicker.dev.FilePickerDialog
  easy.filepicker.dev.FilePickerDialog$OnSelectedListener
-easy/filepicker/dev/BuildConfig.java
- easy.filepicker.dev.BuildConfig
