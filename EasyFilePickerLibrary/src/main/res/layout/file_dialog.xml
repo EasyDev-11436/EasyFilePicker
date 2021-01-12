@@ -63,8 +63,7 @@
                     android:text="Cancel"
                     android:theme="@style/MyDialogButton"
                     android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
-                    app:cornerRadius="8dp"
-                    style="?attr/materialButtonOutlinedStyle" />
+                    app:cornerRadius="8dp" />
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/positive_button"
