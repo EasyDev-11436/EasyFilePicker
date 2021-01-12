@@ -2,6 +2,8 @@ language: android
 
 jdk: oraclejdk8
 
+dist: trusty
+
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
   - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
@@ -45,9 +47,8 @@ script:
 
 deploy:
   provider: script
-  script: ./gradlew :clean :droidils:assembleRelease :droidils:bintrayUpload
-  skip_cleanup: true # to upload artifacts created during the build
-  dry-run: false
+  script: ./gradlew :clean :EasyFilePickerLibrary:assembleRelease :EasyFikePickerLibrary:bintrayUpload
+  cleanup: true # to upload artifacts created during the build
 
   on:
     branch: main
