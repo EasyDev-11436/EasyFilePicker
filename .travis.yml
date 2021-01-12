@@ -49,7 +49,7 @@ deploy:
   provider: script
   script: ./gradlew :clean :EasyFilePickerLibrary:assembleRelease :EasyFilePickerLibrary:bintrayUpload
   skip_cleanup: true # to upload artifacts created during the build
-  dry-run: false
+  dry_run: false
   
   on:
     branch: main
