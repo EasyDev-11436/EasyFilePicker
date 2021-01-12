@@ -117,6 +117,9 @@ public class FilePickerDialog extends BottomSheetDialogFragment {
 
             dialogCard.setRadius(dialogRadius);
             dialogCard.setCardElevation(dialogElevation);
+            
+            
+            
         } else {
             Toast.makeText(getContext(), "CardView Null Object Reference", Toast.LENGTH_SHORT).show();
         }
@@ -156,9 +159,9 @@ public class FilePickerDialog extends BottomSheetDialogFragment {
 
     public static class Builder {
 
-        private float dialogRadius;
-        private float dialogElevation;
-        private int dialogMargin;
+        private float dialogRadius = 8;
+        private float dialogElevation = 8;
+        private int dialogMargin = 8;
         private boolean showPathAsTitle = false;
         private boolean showAddNewFolder = false;
         private String dialogStringTitle;
@@ -207,9 +210,6 @@ public class FilePickerDialog extends BottomSheetDialogFragment {
         }
 
         public FilePickerDialog build() {
-            this.dialogRadius = (float) context.getResources().getInteger(R.integer.default_corner_radius);
-            this.dialogElevation = (float) context.getResources().getInteger(R.integer.default_dialog_elevation);
-            this.dialogMargin = context.getResources().getInteger(R.integer.default_dialog_margin);
             return newInstance(this);
         }
 

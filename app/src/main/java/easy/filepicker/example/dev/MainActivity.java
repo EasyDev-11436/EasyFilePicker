@@ -20,8 +20,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 new FilePickerDialog.Builder()
                 .withContext(MainActivity.this)
-                .setDialogCornerRadius(50)
-                .setDialogMargin(4)
+                .setDialogCornerRadius(20)
+                .setDialogMargin(20)
                 .setFilePickerTyoe(FilePickerDialog.FilePickerType.FILE)
                 .build()
                 .show(getSupportFragmentManager(), FilePickerDialog.TAG);
