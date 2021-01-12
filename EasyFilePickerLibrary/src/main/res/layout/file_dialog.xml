@@ -8,10 +8,81 @@
     android:layout_margin="@dimen/dialog_margin"
     app:cardCornerRadius="@dimen/dialog_corner_radius"
     app:cardElevation="@dimen/dialog_elevation">
-    
-    <androidx.recylcerview.widget.RecyclerView
-        android:id="@+id/item_rv"
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-    
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dialog_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:padding="10dp" 
+                android:elevation="8dp"
+                android:background="@color/colorPrimary" 
+                android:textColor="@android:color/white"/>
+
+            <androidx.coordinatorlayout.widget.CoordinatorLayout
+                android:layout_width="match_parent"
+                android:layout_height="500dp">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/file_list_rv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/fab_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:layout_gravity="right|bottom"
+                    app:srcCompat="@drawable/ic_folder_plus"
+                    app:elevation="10dp"
+                    app:fabSize="mini"/>
+
+            </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical|right"
+                android:elevation="40dp">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/negative_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="Cancel"
+                    android:theme="@style/MyDialogButton"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+                    app:cornerRadius="8dp"
+                    style="?attr/materialButtonOutlinedStyle" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/positive_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="Choose"
+                    android:theme="@style/MyDialogButton"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+                    app:cornerRadius="8dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
 </androidx.cardview.widget.CardView>

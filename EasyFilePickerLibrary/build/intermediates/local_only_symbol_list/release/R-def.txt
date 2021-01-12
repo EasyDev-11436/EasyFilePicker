@@ -3,10 +3,15 @@ local
 dimen dialog_corner_radius
 dimen dialog_elevation
 dimen dialog_margin
+drawable ic_folder_plus
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 id dialog_card
-id item_rv
+id dialog_header
+id fab_add
+id file_list_rv
+id negative_button
+id positive_button
 integer default_corner_radius
 integer default_dialog_elevation
 integer default_dialog_margin
@@ -17,3 +22,4 @@ mipmap ic_launcher_round
 string app_name
 style MYBottomSheetStyle
 style MyBottomSheetDialogTheme
+style MyDialogButton
