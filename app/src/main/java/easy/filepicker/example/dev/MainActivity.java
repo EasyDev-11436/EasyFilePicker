@@ -18,11 +18,16 @@ public class MainActivity extends AppCompatActivity {
             
             @Override
             public void onClick(View v) {
+                
+                FilePickerDialog.FilePickerType type;
+                
+                type = FilePickerDialog.FilePickerType.FILE;
+                
                 new FilePickerDialog.Builder()
                 .withContext(MainActivity.this)
                 .setDialogCornerRadius(20)
                 .setDialogMargin(20)
-                .setFilePickerTyoe(FilePickerDialog.FilePickerType.FILE)
+                .setFilePickerTyoe(type)
                 .build()
                 .show(getSupportFragmentManager(), FilePickerDialog.TAG);
             }
