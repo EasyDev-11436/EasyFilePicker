@@ -7,7 +7,7 @@ publishing {
 
     publications {
         Production(MavenPublication) {
-            artifact("$buildDir/outputs/aar/droidils-release.aar")
+            artifact("$buildDir/outputs/aar/EasyFilePickerLibrary-release.aar")
             groupId 'easy.filepicker.dev'
             artifactId 'EasyFilePicker'
             version '1.0'
