@@ -47,7 +47,7 @@ script:
 
 deploy:
   provider: script
-  script: ./gradlew :clean :EasyFilePickerLibrary:assembleRelease :EasyFikePickerLibrary:bintrayUpload
+  script: ./gradlew :clean :EasyFilePickerLibrary:assembleRelease :EasyFilePickerLibrary:bintrayUpload
   cleanup: true # to upload artifacts created during the build
 
   on:
