@@ -43,7 +43,7 @@ bintray {
     pkg {
         repo = 'EasyFilePicker'
         name = project.name
-        userOrg = 'EasyDev'
+        userOrg = 'easydev-11436'
         licenses = ['Apache-2.0']
         desc = 'EasyFilePicker'
         websiteUrl = "https://easydev-11436.github.io/EasyFilePicker/"
