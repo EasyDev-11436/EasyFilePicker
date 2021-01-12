@@ -43,7 +43,7 @@ bintray {
     pkg {
         repo = 'EasyFilePicker'
         name = project.name
-        userOrg = 'EasyDev-11436'
+        userOrg = 'EasyDev'
         licenses = ['Apache-2.0']
         desc = 'EasyFilePicker'
         websiteUrl = "https://easydev-11436.github.io/EasyFilePicker/"
@@ -51,8 +51,8 @@ bintray {
         vcsUrl = 'https://github.com/EasyDev-11436/EasyFilePicker.git'
         
         version {
-            name = '1.4.1' //Bintray logical version name
-            vcsTag = '1.4.1'
+            name = '1.0' //Bintray logical version name
+            vcsTag = '1.0'
         }
     }
 
